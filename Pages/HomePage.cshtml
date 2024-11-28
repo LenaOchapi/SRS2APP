@@ -1,0 +1,48 @@
+﻿@page
+@model SRS2APP.Pages.HomePageModel
+@{
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Приветственное сообщение</title>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f0f0f0; /* Цвет фона */
+                font-family: Arial, sans-serif; /* Шрифт */
+            }
+
+            .welcome-message {
+                text-align: center;
+                padding: 20px;
+                background-color: #ffffff; /* Цвет фона сообщения */
+                border-radius: 10px; /* Закругленные углы */
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+            }
+
+            h1 {
+                margin: 0;
+                color: #333; /* Цвет текста заголовка */
+            }
+
+            p {
+                color: #666; /* Цвет текста параграфа */
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="welcome-message">
+            <h1>Добро пожаловать!</h1>
+            <p>Мы рады видеть вас на нашем сайте.</p>
+        </div>
+
+    </body>
+    </html>
+}
